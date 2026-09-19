@@ -1,1 +1,1 @@
-Trabalho desktop gerador de senhas automáticas  
+Trabalho desktop gerenciador de senhas 
