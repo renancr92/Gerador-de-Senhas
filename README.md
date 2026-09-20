@@ -6,8 +6,8 @@
 ## 📌 Sobre o Projeto
 
 O obejetivo desse trabalho é uma elaboração de um CRUD de um gerenciador de senhas para a disciplina de Programação Desktop, produzida com a biblioteca javafx
-no intuíto de produzir interfaces gráficas com interação com o usuário, afim de obter competências práticas discorridas em sala de aula par a obtenção
-de nota. Sua finalidade é adquirir conhecimentos por produção de interfaces usando javafx e sua integração com o usuário no quesito de criar, listar,
+no intuíto de produzir interfaces gráficas com interação com o usuário, afim de obter competências práticas discorridas em sala de aula para obtenção
+de nota. Sua finalidade é adquirir conhecimentos usando javafx e sua integração com o usuário no quesito de criar, listar,
 atualizar e deletar possibilitando um panorama aplicável do uso da linguagem JAVA. Em suma O **Gerenciador de Senhas** é uma aplicação desktop desenvolvida
 em Java que permite ao utilizador realizar a gestão completa (CRUD) das suas credenciais. O sistema resolve o problema de memorização de múltiplas palavras-passe,
 oferecendo também uma funcionalidade para a geração automática de combinações fortes e aleatórias.
@@ -55,4 +55,4 @@ A arquitetura do projeto está organizada no pacote `gerenciadorDesenhas` com os
 
 1. Clone o repositório ou importe o projeto no Eclipse:
    ```bash
-   git clone [https://github.com/seu-usuario/Gerenciador-de-Senhas.git](https://github.com/seu-usuario/Gerenciador-de-Senhas.git)
+   git clone https://github.com/renancr92/Gerenciador-de-Senhas.git
