@@ -31,7 +31,7 @@ As funcionalides do projeto incluem:
 As teconologias presentes no desenvolvimento são:
 
 - **Linguagem:** Java (JDK 8 ou superior)
-- **Interface Gráfica:** Java Swing / AWT
+- **Interface Gráfica:** Javafx
 - **Ambiente de Desenvolvimento:** Eclipse IDE
 - **Controlo de Versões:** Git & GitHub
 
