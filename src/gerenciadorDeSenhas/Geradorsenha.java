@@ -8,7 +8,9 @@ public class Geradorsenha {
 
 	    String letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	    String numeros = "0123456789";
-	    String caracteres = letras + numeros;
+	    String especiais = "@#$%&*!";
+
+	    String caracteres = letras + numeros + especiais;
 
 	    Random random = new Random();
 
