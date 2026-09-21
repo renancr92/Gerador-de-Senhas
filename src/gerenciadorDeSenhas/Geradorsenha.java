@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Geradorsenha {
 
-	public static String gerarSenha() {
+	public static String gerarSenha(int tamanho) {
 
 	    String letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	    String numeros = "0123456789";
@@ -16,7 +16,7 @@ public class Geradorsenha {
 
 	    String senha = "";
 
-	    for (int i = 0; i < 6; i++) {
+	    for (int i = 0; i < tamanho; i++) {
 	        int posicao = random.nextInt(caracteres.length());
 	        senha += caracteres.charAt(posicao);
 	    }
@@ -24,7 +24,7 @@ public class Geradorsenha {
 	    return senha;
 	}
 
-    public static void main(String[] args) {
-        System.out.println(gerarSenha());
-    }
+	public static void main(String[] args) {
+	    System.out.println(gerarSenha(10));
+	}
 }
