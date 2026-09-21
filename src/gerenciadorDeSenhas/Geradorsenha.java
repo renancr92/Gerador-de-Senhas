@@ -10,9 +10,14 @@ public class Geradorsenha {
 
         Random random = new Random();
 
-        int posicao = random.nextInt(letras.length());
+        String senha = "";
 
-        return String.valueOf(letras.charAt(posicao));
+        for (int i = 0; i < 6; i++) {
+            int posicao = random.nextInt(letras.length());
+            senha += letras.charAt(posicao);
+        }
+
+        return senha;
     }
 
     public static void main(String[] args) {
