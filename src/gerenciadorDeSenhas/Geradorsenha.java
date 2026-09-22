@@ -6,6 +6,10 @@ public class Geradorsenha {
 
 	public static String gerarSenha(int tamanho) {
 
+	    if (tamanho < 3) {
+	        return "O tamanho deve ser no mínimo 3";
+	    }
+
 	    String letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	    String numeros = "0123456789";
 	    String especiais = "@#$%&*!";
@@ -39,6 +43,7 @@ public class Geradorsenha {
 	}
 
 	public static void main(String[] args) {
+	    System.out.println(gerarSenha(2));
 	    System.out.println(gerarSenha(10));
 	}
 }
