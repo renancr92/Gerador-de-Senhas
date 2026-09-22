@@ -1,15 +1,15 @@
 
-## 📌 Sobre o Projeto
+##  Sobre o Projeto
 
-O objetivo desse trabalho é uma elaboração de um CRUD sobre um gerenciador de senhas para a disciplina de Programação Desktop, produzida em JavaFX, um conjunto de 
-ferramentas e uma biblioteca (framework) para da linguagem Java usada para criar interfaces gráficas de usuário (GUI) modernas em aplicativos de desktop. 
-Com finalidade de obter competências práticas discorridas em sala de aula para obtenção de nota. Competênicas essas que seriam adquirir conhecimentos usando javafx e sua integração 
-com o usuário no quesito de criar, listar, atualizar e deletar, possibilitando um panorama aplicável do uso da linguagem JAVA em interfaces. Em suma O **Gerenciador de Senhas** 
-é uma aplicação desktop desenvolvida em Javafx que permite ao utilizador realizar a gestão completa (CRUD) das suas credenciais. O sistema resolve o problema de memorização de 
+O objetivo desse trabalho é uma elaboração de um CRUD sobre um gerenciador de senhas para a Disciplina de Programação Desktop, produzida em JavaFX, um conjunto de 
+ferramentas e uma biblioteca (framework) da linguagem Java usada para criar interfaces gráficas de usuário (GUI) modernas em aplicativos de desktop. 
+Com finalidade de obter competências práticas discorridas em sala de aula para obtenção de nota. Competênicas essas que seriam adquirir conhecimentos usando JavaFX e sua integração 
+com o usuário, no quesito de Criar, Listar, Atualizar e Deletar, possibilitando um panorama aplicável do uso da linguagem JAVA em interfaces. Em suma O **Gerenciador de Senhas** 
+é uma aplicação desktop desenvolvida em JavaFX que permite ao utilizador realizar a gestão completa (CRUD) das suas credenciais. O sistema resolve o problema de memorização de 
 múltiplas palavras-passe, oferecendo também uma funcionalidade para a geração automática de combinações fortes e aleatórias.
 
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 As funcionalides do projeto incluem:
 
@@ -22,16 +22,16 @@ As funcionalides do projeto incluem:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 As teconologias presentes no desenvolvimento são:
 
 - **Linguagem:** Java (JDK 8 ou superior)
 - **Interface Gráfica:** Javafx
-- **Ambiente de Desenvolvimento:** Eclipse IDE, VS code etc
+- **Ambiente de Desenvolvimento:** Eclipse IDE, VS Code etc
 - **Controlo de Versões:** Git & GitHub
 
-## 🏗️ Estrutura do Código
+##  Estrutura do Código
 
 A arquitetura do projeto está organizada no pacote `gerenciadorDesenhas` com os seguintes módulos principais:
 
@@ -41,11 +41,11 @@ A arquitetura do projeto está organizada no pacote `gerenciadorDesenhas` com os
 * `App.java` / `Main.java`: Ponto de entrada (Entry Point) da aplicação.
 
 
-## 📂 Como Executar o Projeto
+##  Como Executar o Projeto
 
 ### Pré-requisitos
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/) instalado.
-- [Eclipse IDE](https://www.eclipse.org/downloads/), VS code configurado e instalado.
+- [Eclipse IDE, VS Code](https://www.eclipse.org/downloads/),  configurado e instalado.
 
 ### Passo a Passo
 
