@@ -25,7 +25,17 @@ public class Geradorsenha {
 	        senha += caracteres.charAt(posicao);
 	    }
 
-	    return senha;
+	    char[] senhaArray = senha.toCharArray();
+
+	    for (int i = senhaArray.length - 1; i > 0; i--) {
+	        int j = random.nextInt(i + 1);
+
+	        char temp = senhaArray[i];
+	        senhaArray[i] = senhaArray[j];
+	        senhaArray[j] = temp;
+	    }
+
+	    return new String(senhaArray);
 	}
 
 	public static void main(String[] args) {
