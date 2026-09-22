@@ -4,29 +4,42 @@ import java.util.Random;
 
 public class Geradorsenha {
 
+	public static String gerarLetra(Random random) {
+	    String letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	    return String.valueOf(letras.charAt(random.nextInt(letras.length())));
+	}
+
+	public static String gerarNumero(Random random) {
+	    String numeros = "0123456789";
+	    return String.valueOf(numeros.charAt(random.nextInt(numeros.length())));
+	}
+
+	public static String gerarEspecial(Random random) {
+	    String especiais = "@#$%&*!";
+	    return String.valueOf(especiais.charAt(random.nextInt(especiais.length())));
+	}
+
+	public static String gerarCaractere(Random random) {
+	    String caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%&*!";
+	    return String.valueOf(caracteres.charAt(random.nextInt(caracteres.length())));
+	}
+
 	public static String gerarSenha(int tamanho) {
 
 	    if (tamanho < 3) {
 	        return "O tamanho deve ser no mínimo 3";
 	    }
 
-	    String letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	    String numeros = "0123456789";
-	    String especiais = "@#$%&*!";
-
 	    Random random = new Random();
 
 	    String senha = "";
 
-	    senha += letras.charAt(random.nextInt(letras.length()));
-	    senha += numeros.charAt(random.nextInt(numeros.length()));
-	    senha += especiais.charAt(random.nextInt(especiais.length()));
-
-	    String caracteres = letras + numeros + especiais;
+	    senha += gerarLetra(random);
+	    senha += gerarNumero(random);
+	    senha += gerarEspecial(random);
 
 	    for (int i = 3; i < tamanho; i++) {
-	        int posicao = random.nextInt(caracteres.length());
-	        senha += caracteres.charAt(posicao);
+	        senha += gerarCaractere(random);
 	    }
 
 	    char[] senhaArray = senha.toCharArray();
@@ -43,7 +56,6 @@ public class Geradorsenha {
 	}
 
 	public static void main(String[] args) {
-	    System.out.println(gerarSenha(2));
 	    System.out.println(gerarSenha(10));
 	}
 }
