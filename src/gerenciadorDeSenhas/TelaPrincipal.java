@@ -58,6 +58,7 @@ public class TelaPrincipal {
         Button btnCadastrar = new Button("Cadastrar");
         Button btnEditar = new Button("Editar");
         Button btnExcluir = new Button("Excluir");
+        btnExcluir.getStyleClass().add("button-delete");
 
         HBox boxBotoes = new HBox(10, btnCadastrar, btnEditar, btnExcluir);
         boxBotoes.setAlignment(Pos.CENTER_LEFT);
