@@ -1,7 +1,11 @@
 package gerenciadorDeSenhas;
 
 public class Senha {
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> lukinha
     private String servico;
     private String usuario;
     private String senha;
@@ -51,4 +55,3 @@ public class Senha {
         return "Serviço: " + servico + " | Usuário: " + usuario + " | Senha: " + senha;
     }
 }
-
