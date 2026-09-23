@@ -1,11 +1,7 @@
 package gerenciadorDeSenhas;
 
 public class Senha {
-<<<<<<< HEAD
  
-=======
-
->>>>>>> lukinha
     private String servico;
     private String usuario;
     private String senha;
